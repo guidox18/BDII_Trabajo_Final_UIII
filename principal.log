@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.6)  6 JUL 2016 20:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.6)  6 JUL 2016 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -688,6 +688,16 @@ Your command was ignored.
 Type I <command><return>to replace it with another command,
 or <return>to continue without it.
 
+number indent by \l@... (toc, 2):  38.00003pt
+text indent by \l@... (toc, 2):  31.99997pt
+number indent by parent (toc, 2):  29.71997pt
+text indent calculated (toc, 2): 25.0pt
+number indent calculated (toc, 2): 29.71997pt
+number indent by \l@... (toc, 2):  38.00003pt
+text indent by \l@... (toc, 2):  31.99997pt
+number indent by parent (toc, 2):  29.71997pt
+text indent calculated (toc, 2): 25.0pt
+number indent calculated (toc, 2): 29.71997pt
 number indent by \l@... (toc, 1):  15.0pt
 text indent by \l@... (toc, 1):  23.00003pt
 number indent by parent (toc, 1):  12.21997pt
@@ -815,7 +825,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 Este producto se encarga de la gestió
+l.7 Este producto se encarga de la gestió
                                            n de backups y restauración de ...
 
 Your command was ignored.
@@ -830,7 +840,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ... de la gestión de backups y restauració
+l.7 ... de la gestión de backups y restauració
                                                   n de data files, archive l...
 
 Your command was ignored.
@@ -845,7 +855,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ...iles, archive logs y control files, ademá
+l.7 ...iles, archive logs y control files, ademá
                                                   s de poder ser usado para ...
 
 Your command was ignored.
@@ -860,7 +870,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ...�s de poder ser usado para la recuperació
+l.7 ...�s de poder ser usado para la recuperació
                                                   n completa o incompleta de...
 
 Your command was ignored.
@@ -875,7 +885,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 Rman tiene la caracterí
+l.9 Rman tiene la caracterí
                              stica de ser configurado de dos formas , la pri...
 
 Your command was ignored.
@@ -890,7 +900,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 ...onfigurado de dos formas , la primera, má
+l.9 ...onfigurado de dos formas , la primera, má
                                                   s limitada y con menos opc...
 
 Your command was ignored.
@@ -905,7 +915,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 ... base de datos y donde toda la informació
+l.9 ... base de datos y donde toda la informació
                                                   n de los backups es guarda...
 
 Your command was ignored.
@@ -920,7 +930,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 ...ardada en el controlfile y la segunda, má
+l.9 ...ardada en el controlfile y la segunda, má
                                                   s completa y robusta, mane...
 
 Your command was ignored.
@@ -935,7 +945,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 ...s en forma de esquema y que nos permitirá
+l.9 ...s en forma de esquema y que nos permitirá
                                                    la gestión de backups d...
 
 Your command was ignored.
@@ -950,7 +960,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 ...e esquema y que nos permitirá la gestió
+l.9 ...e esquema y que nos permitirá la gestió
                                                   n de backups de un mayor n...
 
 Your command was ignored.
@@ -965,7 +975,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 ...́ la gestión de backups de un mayor nú
+l.9 ...́ la gestión de backups de un mayor nú
                                                   mero de instancias.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -979,7 +989,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...andos.La mayor ventaja de RMAN es que só
+l.11 ...andos.La mayor ventaja de RMAN es que só
                                                   lo se utiliza el espacio d...
 
 Your command was ignored.
@@ -994,8 +1004,38 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...os permite realizar backup ya sea en frí
+l.13 ...os permite realizar backup ya sea en frí
                                                   o o en caliente.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...ar la Base de Datos hay que parar tambié
+                                                  n todos las aplicaciones q...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...ambién todos las aplicaciones que esté
+                                                  n trabajando con la Base d...
+
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1005,13 +1045,70 @@ or  <return>  to continue without it.
 
 
 ]
-Capitulos/Capitulo02.tex:34:Warning: Referencia no definida
 
-Capitulos/Capitulo02.tex:34: LaTeX Warning: Citation `Blanco2013' undefined on 
-input line 34.
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...e seguir para realizar un backup en frió
+                                                  (en oracle) serían:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...izar un backup en frió(en oracle) serí
+                                                  an:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \item Conocer y listar la ubicació
+                                         n de los datafiles, controlfiles y ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...referido como cinta, disco duro, otra má
+                                                  quina, etc.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Capitulos/Capitulo02.tex:46:Warning: Referencia no definida
+
+Capitulos/Capitulo02.tex:46: LaTeX Warning: Citation `Blanco2013' undefined on 
+input line 46.
 
 ! Undefined control sequence.
-l.69 \includegraphics
+l.81 \includegraphics
                      [scale=1.7]{images/universe.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1019,10 +1116,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [3]
+) [3] [4]
 \openout2 = `Capitulos/Conclusiones.aux'.
 
- (./Capitulos/Conclusiones.tex) [4
+ (./Capitulos/Conclusiones.tex) [5
 
 
 
@@ -1030,7 +1127,7 @@ and I'll forget about whatever was undefined.
 \openout2 = `Capitulos/Recomendaciones.aux'.
 
  (./Capitulos/Recomendaciones.tex)
-[5
+[6
 
 
 
@@ -1040,7 +1137,7 @@ No file principal.bbl.
 
 (./Anexos/Anexo01.tex
 Anexo A.
-) [6
+) [7
 
 
 
@@ -1058,7 +1155,7 @@ Anexos/Anexo01.aux:47: LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4458 strings out of 493014
  60548 string characters out of 6133352
- 151370 words of memory out of 5000000
+ 153370 words of memory out of 5000000
  7903 multiletter control sequences out of 15000+600000
  12540 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1073,10 +1170,10 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb>
-Output written on principal.pdf (11 pages, 100296 bytes).
+Output written on principal.pdf (12 pages, 101292 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

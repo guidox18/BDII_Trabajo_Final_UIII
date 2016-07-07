@@ -1,6 +1,7 @@
 \chapter{DESARROLLO DEL TRABAJO}
 
 \section{Backup y Restauración}
+\subsection{RMAN}
 El Recovery Manager (RMAN) es una utilidad usada para respaldar (backup), restaurar, recuperar y clonar bases de datos ORACLE.
 
 Este producto se encarga de la gestión de backups y restauración de data files, archive logs y control files, además de poder ser usado para la recuperación completa o incompleta de una Base de datos.
@@ -21,6 +22,17 @@ Ejemplo de RMAN:
 \item RMAN> backup database;
 \end{list}
 
+
+\subsection{Backups de la BD en Frio}
+Los backups en frio implican parar la Base de Datos en modo normal y copiar todos los ficheros sobre los que se asienta(datafile,controlfile y logfile). Antes de parar la Base de Datos hay que parar también todos las aplicaciones que estén trabajando con la Base de Datos. Una vez realizada la copia de los ficheros, la Base de Datos se puede volver a arrancar.
+
+Los pasos que hay que seguir para realizar un backup en frió(en oracle) serían:
+
+\begin{enumerate}
+\item Conocer y listar la ubicación de los datafiles, controlfiles y logfiles. Esto se hace ejecutando:
+\item Detener la base de datos mediante shutdown normal o inmediato.
+\item Copiar los archivos datafiles, controlfiles y logfiles a un medio de backup preferido como cinta, disco duro, otra máquina, etc.
+\end{enumerate}
 
 \section{Antecedentes}
 Para conocer cómo ha ido evolucionando la Información, las Tecnologías de Información y Comunicación, y las Teorías sobre Gestión de la Información, se presentan a continuación los eventos m\'as importantes ocurridos a largo de nuestra historia a partir del año 500 después de Cristo
