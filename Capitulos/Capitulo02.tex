@@ -1,5 +1,26 @@
 \chapter{DESARROLLO DEL TRABAJO}
-Es el punto en el que se detalla en forma resumida la teoría y práctica del tema sobre el cual se está realizando el trabajo de manera que los conceptos principales queden claros para el estudiante.
+
+\section{Backup y Restauración}
+El Recovery Manager (RMAN) es una utilidad usada para respaldar (backup), restaurar, recuperar y clonar bases de datos ORACLE.
+
+Este producto se encarga de la gestión de backups y restauración de data files, archive logs y control files, además de poder ser usado para la recuperación completa o incompleta de una Base de datos.
+
+Rman tiene la característica de ser configurado de dos formas , la primera, más limitada y con menos opciones , que solo puede gestionar una sola base de datos y donde toda la información de los backups es guardada en el controlfile y la segunda, más completa y robusta, manejado por un repositorio que se guarda en la base de datos en forma de esquema y que nos permitirá la gestión de backups de un mayor número de instancias.
+
+RMAN puede ser operado desde Oracle Enterprise Manager o desde linea de comandos.La mayor ventaja de RMAN es que sólo se utiliza el espacio de copia de seguridad en la base de datos.
+
+RMAN nos permite realizar backup ya sea en frío o en caliente.
+
+Ejemplo de RMAN:
+
+\begin{list}{}{}
+\item [oracle@localhost oracle] \$ rman
+\item Recovery Manager: Release 10.1.0.2.0 - Production Copyright (c) 1995, 2004, Oracle. All rights reserved.
+\item RMAN> connect target;
+\item connected to target database: ORCL (DBID=1058957020)
+\item RMAN> backup database;
+\end{list}
+
 
 \section{Antecedentes}
 Para conocer cómo ha ido evolucionando la Información, las Tecnologías de Información y Comunicación, y las Teorías sobre Gestión de la Información, se presentan a continuación los eventos m\'as importantes ocurridos a largo de nuestra historia a partir del año 500 después de Cristo
