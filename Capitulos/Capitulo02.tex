@@ -30,17 +30,63 @@ Los pasos que hay que seguir para realizar un backup en frió(en oracle) serí
 
 \begin{enumerate}
 \item Conocer y listar la ubicación de los datafiles, controlfiles y logfiles. Esto se hace ejecutando:
+\begin{itemize}
+\item select file\_name from dba\_data\_files; 
+\item select name from v\$controlfile;
+\item select member from v\$logfile;
+\end{itemize}
 \item Detener la base de datos mediante shutdown normal o inmediato.
 \item Copiar los archivos datafiles, controlfiles y logfiles a un medio de backup preferido como cinta, disco duro, otra máquina, etc.
 \end{enumerate}
 
-\section{Antecedentes}
-Para conocer cómo ha ido evolucionando la Información, las Tecnologías de Información y Comunicación, y las Teorías sobre Gestión de la Información, se presentan a continuación los eventos m\'as importantes ocurridos a largo de nuestra historia a partir del año 500 después de Cristo
+\textbf{Ventajas:}
+\begin{itemize}
+\item Fácil de ejecutar y automatizar.
+\item El tiempo de recuperación es predecible. Solo hay que conocer el tiempo de transferencia de los ficheros donde reside el backup.
+\end{itemize}
+
+\textbf{Desventajas:}
+\begin{itemize}
+\item No es posible utilizar la base de datos mientras el backup se este realizando.
+\item La recuperación de la base de datos es siempre completa.
+\end{itemize}
+
+\textbf{Cuando debe Usarse?}
+
+Cuando lo que se necesita es tener una copia de la base de datos completa y que no
+sera recuperada con frecuencia.
+
+
+\section{Backups de la BD en Caliente}
+El backup en caliente se realiza mientras la Base de Datos está abierta y funcionando en modo ARCHIVELOG. Habrá que tener cuidado de realizarlo cuando la carga de la Base de Datos sea pequeña.
+
+Este tipo de backup consiste en copiar todos los ficheros correspondientes a un tablespace determinado, los ficheros redo log archivados y los ficheros de control. Esto para cada tablespace de la Base de Datos.
+
+El backup en caliente consiste en 3 procesos:
 
 \begin{enumerate}
-\item Priemr Antecedente
-\item Segundo Antecedente
+\item Copiar los datos del tablespace.
+\item Copiar los redo logs archivados.
+\item Copiar los control file.
 \end{enumerate}
+
+\textbf{Ventajas:}
+\begin{itemize}
+\item La base de Datos se puede utilizar mientras se realiza el backup.
+\item Se puede realizar incluso con usuarios accesando la Base de Datos.
+\end{itemize}
+
+\textbf{Desventajas:}
+\begin{itemize}
+\item Ocupa mucho mas tiempo que el de un backup en frio.
+\item La Base de Datos debe estar operando en modo ARCHIVELOG.
+\item Sólo se debe hacer durante los períodos de bajo uso.
+\end{itemize}
+
+\textbf{Cuando debe Usarse?}
+
+Cuando la implantación de Base de Datos requiere disponibilidad de la misma 24h. al
+día, 7 dias a la semana.
 
 \section{Estado del Arte}
 Se entiende por Información al conjunto de datos que han sido procesados con la finalidad de establecer un mensaje y generar conocimiento del sistema que lo reciba. El dato es su unidad mínima, el cual por sí solo no posee ningún valor, pero en conjunto genera información. Esta información al ser organizada adecuadamente se convierte en conocimiento y luego del resultado de su análisis se convierte en finalmente sabiduría. \citeA{Blanco2013}

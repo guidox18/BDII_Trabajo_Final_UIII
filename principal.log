@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.6)  6 JUL 2016 20:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.6)  6 JUL 2016 22:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1096,30 +1096,175 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 ...referido como cinta, disco duro, otra má
+l.39 ...referido como cinta, disco duro, otra má
                                                   quina, etc.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Capitulos/Capitulo02.tex:46:Warning: Referencia no definida
 
-Capitulos/Capitulo02.tex:46: LaTeX Warning: Citation `Blanco2013' undefined on 
-input line 46.
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \item Fá
+               cil de ejecutar y automatizar.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \item El tiempo de recuperació
+                                     n es predecible. Solo hay que conocer e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \item La recuperació
+                           n de la base de datos es siempre completa.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...e realiza mientras la Base de Datos está
+                                                   abierta y funcionando en ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ... y funcionando en modo ARCHIVELOG. Habrá
+                                                   que tener cuidado de real...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ̃ (U+303)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ... la carga de la Base de Datos sea pequeñ
+                                                  a.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3]
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 \item Só
+               lo se debe hacer durante los períodos de bajo uso.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 \item Sólo se debe hacer durante los perí
+                                                  odos de bajo uso.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 Cuando la implantació
+                            n de Base de Datos requiere disponibilidad de la...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 dí
+         a, 7 dias a la semana.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Capitulos/Capitulo02.tex:92:Warning: Referencia no definida
+
+Capitulos/Capitulo02.tex:92: LaTeX Warning: Citation `Blanco2013' undefined on 
+input line 92.
 
 ! Undefined control sequence.
-l.81 \includegraphics
-                     [scale=1.7]{images/universe.jpg}
+l.127 \includegraphics
+                      [scale=1.7]{images/universe.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [3] [4]
+[4]) [5]
 \openout2 = `Capitulos/Conclusiones.aux'.
 
- (./Capitulos/Conclusiones.tex) [5
+ (./Capitulos/Conclusiones.tex) [6
 
 
 
@@ -1127,7 +1272,7 @@ and I'll forget about whatever was undefined.
 \openout2 = `Capitulos/Recomendaciones.aux'.
 
  (./Capitulos/Recomendaciones.tex)
-[6
+[7
 
 
 
@@ -1137,7 +1282,7 @@ No file principal.bbl.
 
 (./Anexos/Anexo01.tex
 Anexo A.
-) [7
+) [8
 
 
 
@@ -1151,12 +1296,16 @@ LaTeX Info: Redefining \% on input line 9.
 
 Anexos/Anexo01.aux:47: LaTeX Warning: There were undefined references.
 
+
+Anexos/Anexo01.aux:47: LaTeX Warning: Label(s) may have changed. Rerun to get c
+ross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 4458 strings out of 493014
- 60548 string characters out of 6133352
+ 4460 strings out of 493014
+ 60571 string characters out of 6133352
  153370 words of memory out of 5000000
- 7903 multiletter control sequences out of 15000+600000
+ 7905 multiletter control sequences out of 15000+600000
  12540 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,40p,7789b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1170,10 +1319,10 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb>
-Output written on principal.pdf (12 pages, 101292 bytes).
+Output written on principal.pdf (13 pages, 103325 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
