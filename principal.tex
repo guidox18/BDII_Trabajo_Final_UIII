@@ -1,0 +1,47 @@
+\documentclass[a4paper,20pt]{report}
+\usepackage{graphicx}
+%\graphicspath{ {images/} }
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{fancyhdr}
+\usepackage{hlundef}
+\usepackage{informe}
+\usepackage[table]{xcolor}
+
+\usepackage{enumerate} % Personalizar enumeraciones
+
+% USO PERSONALIZADO CARATULA
+\title{Guía de Implementación de estrategia de Copias se Seguridad y Recuperación de base de Datos}
+\author{Guido Henry Pacsi Candia (2013046437)\\Edwin Condori Vilcapuma (2013046437)\\Mauricio Garcia Silva (2013000786)\\Yosy Nuñes (0000000000)\\Gerson Lopez (2012042802)}
+\date{2016}
+
+% INICIO DOCUMENTO
+\begin{document}
+%\pagenumbering{roman} % Paginacion en i, ii, iii,...
+\maketitle 
+
+\doublespacing
+
+\tableofcontents %Inserta el indice general
+%\addcontentsline{toc}{chapter}{CONTENIDO} % INdice en el indice
+
+\listoftables %Inserta el indice de cuadros
+\listoffigures %Inserta el indice de figuras
+
+%%% En esta parte se incluye los archivos del informe
+\include{Capitulos/Introduccion}
+\pagenumbering{arabic} % pagionacion en 1,2,3...
+
+\include{Capitulos/Capitulo01}
+\include{Capitulos/Capitulo02}
+\include{Capitulos/Conclusiones}
+\include{Capitulos/Recomendaciones}
+\renewcommand{\bibname}{BIBLIOGRAFIA}
+\bibliographystyle{apacite}
+\bibliography{Bibliografia}
+
+\renewcommand\appendixname{Anexo}
+\appendix
+\include{Anexos/Anexo01}
+
+\end{document}
