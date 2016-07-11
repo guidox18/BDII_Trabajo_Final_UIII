@@ -88,36 +88,14 @@ El backup en caliente consiste en 3 procesos:
 Cuando la implantación de Base de Datos requiere disponibilidad de la misma 24h. al
 día, 7 dias a la semana.
 
-\section{Estado del Arte}
-Se entiende por Información al conjunto de datos que han sido procesados con la finalidad de establecer un mensaje y generar conocimiento del sistema que lo reciba. El dato es su unidad mínima, el cual por sí solo no posee ningún valor, pero en conjunto genera información. Esta información al ser organizada adecuadamente se convierte en conocimiento y luego del resultado de su análisis se convierte en finalmente sabiduría. \citeA{Blanco2013}
+\section{Estrategias de backup}
 
-\subsection{Estrategias de Respaldo}
+\subsection{Metodología Base de datos - Recuperación completa}
 
-\begin{equation}
-f(x)= \left\{ \begin{array}{l||c|l}
-x^2 & \mbox{ si } & x<0 \\ \hline
-& & \\
-x-1 & \mbox{ si } & x>0
-\end{array}
-\right.	
-\end{equation}
+Este método recupera la base de datos para el estado más reciente sin perder ningún transacciones confirmadas. Esto implica la restauración de la base de datos a la buena copia de seguridad más reciente y luego aplicar todos los cambios que usan registros archivados.
 
-\begin{table}[ht]
-\centering{
-    \fontfamily{ptm}
-        \selectfont{
-            \rowcolors{1}{gray}{cyan}
-            \begin{tabular}{ll}
-                $x_{n+1}$ & $|x_{n+1}-x_n|$\\ \hline
-                1.20499955540054 & 0.295000445\\
-                1.17678931926590 & 0.028210236\\
-                1.17650196994274 & 0.000287349\\
-                1.17650193990183 & 3.004$\times10^{-8}$\\
-                1.17650193990183 & 4.440$\times10^{-16}$\\ \hline
-            \end{tabular}
-}}
-\caption{Iteracion de Newton para $x^2-\cos(x)-1=0$ con $x_0=1.5$}
-\end{table}
+\subsection{Copia de seguridad incremental}
+Se trata del tipo de copia que menos capacidad necesita, por volumen de copia, ya que solo almacenará la información que haya sido modificada desde la última copia de seguridad realizada, ya sea completa, diferencial o incremental, da lo mismo. Además, evidentemente, también se trata del proceso de backup más rápido en realizarse. El principal inconveniente que tiene este mecanismo es que para lograr una restauración en un momento determinado, se necesitarán todos los conjuntos de medios incrementales hasta llegar a la última copia diferencial o completa realizada, además de éstas últimas. Igualmente, será el propio software de backup el que nos pida los diferentes volúmenes y los catalogue antes de proceder a su restauración, por lo que el proceso será bastante transparente para el administrador, antes de disponer de nuevo de toda la información.
 
 
 Este un ejemplo de imagen
